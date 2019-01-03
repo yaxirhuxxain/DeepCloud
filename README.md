@@ -3,10 +3,10 @@
 This repository contains our [CodeGRU](arxive.org) saved model and instructions regarding how a developer can use our "Deep Cloud" platform. "Deep Cloud" help suggest the source code in our Visual Studio Code IDE plugin named "DeepVS" in real time. An online version of Deep Cloud can be found [here](http://104.194.70.175/). You can find our "DeepVS" tool [here]( https://github.com/yaxirhuxxain/DeepVS).
 
 ## Deep Cloud Usage
-To integrate our Deep Cloud platform with your own IDE plugin interface please follow these instructions. Deep Cloud accepts a simple GET request and returns a JSON object with top 3 predictions based on "CodeGRU" model. You can simply send a GET request at "65.49.202.232:8080/deepvs?code=<your-code>". Here <your-code> refers to the source code context from which you want the next source code suggestion. 
+To integrate our Deep Cloud platform with your own IDE plugin interface please follow these instructions. Deep Cloud accepts a simple GET request and returns a JSON object with top 3 predictions based on "CodeGRU" model. You can simply send a GET request at "104.194.70.175/deepvs?code=<your-code>". Here <your-code> refers to the source code context from which you want the next source code suggestion. 
 
 #Example: 
-*65.49.202.232:8080/deepvs?code="for(Int IntVar" 
+104.194.70.175/deepvs?code="for(Int IntVar" 
 Here "for(Int IntVar" refers to the context and Deep Cloud will respond a JSON object "['=', ':', ';']" containing top 3 suggestions.
 
 ## Server/Local platform

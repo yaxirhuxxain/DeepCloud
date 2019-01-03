@@ -13,6 +13,5 @@ Here "for(Int IntVar" refers to the context and Deep Cloud will respond a JSON o
 A developer can implement its own Server/local platform to serve deep learning models for various tasks. A software developer can simply implement a web interface similar to "Deep Cloud" which can accept the source code context and send back the response in JSON format. For better understanding of our Deep Cloud or DeepVS tool we suggest to read our paper [here](arxive.org).
 
 ## Technical Details
-Our Deep Cloud is a platform as a service [PAAS](https://www.dummies.com/programming/cloud-computing/hybrid-cloud/
-what-is-platform-as-a-service-paas-in-cloud-computing/) based cloud. Deep Cloud consists of a single core Intel CPU with 512mb Ram and 10GB hard disk running ubuntu-18 x64-bit non GUI edition. This low level configuration of our Deep Cloud makes it possible to run it on any low end platform (local computer or server). An online version of Deep Cloud can be found [here](http://104.194.70.175/).
+Our Deep Cloud is a platform as a service [PAAS](https://www.dummies.com/programming/cloud-computing/hybrid-cloud/what-is-platform-as-a-service-paas-in-cloud-computing/) based cloud. Deep Cloud consists of a single core Intel CPU with 512mb Ram and 10GB hard disk running ubuntu-18 x64-bit non GUI edition. This low level configuration of our Deep Cloud makes it possible to run it on any low end platform (local computer or server). An online version of Deep Cloud can be found [here](http://104.194.70.175/).
 
